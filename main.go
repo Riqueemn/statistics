@@ -21,7 +21,7 @@ func Media(valores []float64, qtd int) float64 {
 	return media
 }
 
-func DesvioPadrao(valores []float64, qtd int) float64 { //Retorna o desvio padrão
+func DesvioPadrao(valores []float64, qtd int) float64 {
 	media := Media(valores, qtd)
 	soma := Amount(valores, media, qtd)
 	desvp := math.Sqrt(soma / float64(qtd))
@@ -29,11 +29,11 @@ func DesvioPadrao(valores []float64, qtd int) float64 { //Retorna o desvio padr�
 	return desvp
 }
 
-func MaxDeTresValores(a float64, b float64, c float64) float64 { //Retorna o máximo de três valores
+func MaxDeTresValores(a float64, b float64, c float64) float64 {
 	return math.Max(a, math.Max(b, c))
 }
 
-func Amount(valores []float64, x float64, qtd int) float64 { //Soma dos quadrados de j = valores[i] - x a i
+func Amount(valores []float64, x float64, qtd int) float64 {
 	soma := 0.0
 	for i := 0; i < qtd; i++ {
 		j := valores[i] - x
