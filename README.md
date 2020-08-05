@@ -10,18 +10,18 @@ Ex.:<br>
 
 
 <br><br>
-Lista de funções:
-<br>
+<b>Lista de funções:</b>
+<br><br>
     Soma(valores []float64, qtd int) float64                    ->  Retorna a Somatóra dos valores no slice
-<br>
+<br><br>
     Media(valores []float64, qtd int) float64                   ->  "" Media dos valores no slice
-<br>
+<br><br>
     DesvioPadrao(valores []float64, qtd int) float64            ->  "" Desvio padrão dos valores no slice
-<br>
+<br><br>
     MaxDeTresValores(a float64, b float64, c float64) float64   ->  "" Máximo entre três valores
-<br>
+<br><br>
     Amount(valores []float64, x float64, qtd int) float64       ->  "" Soma dos quadrados dos valores do slice
-<br>
+<br><br>
     SomaPonderada(valores []float64, pesos []float64) float64   ->  "" Soma ponderada
-<br>
+<br><br>
     MediaPonderada(valores []float64, pesos []float64) float64  ->  "" Média ponderada
