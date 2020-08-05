@@ -42,3 +42,21 @@ func Amount(valores []float64, x float64, qtd int) float64 { //Soma dos quadrado
 
 	return soma
 }
+
+func SomaPonderada(valores []float64, pesos []float64) float64 {
+	soma := 0.0
+	qtd := len(pesos)
+	for i := 0; i < qtd; i++ {
+		soma += valores[i] * pesos[i]
+	}
+
+	return soma
+}
+
+func MediaPonderada(valores []float64, pesos []float64) float64 {
+	soma := SomaPonderada(valores, pesos)
+	qtd := len(pesos)
+	d := Soma(pesos, qtd)
+
+	return soma / d
+}
