@@ -72,3 +72,15 @@ func MaiorValor(valores []float64) float64 {
 
 	return maior
 }
+
+func MenorValor(valores []float64) float64 {
+	i := 0
+	menor := valores[i]
+	for i = 1; i < len(valores); i++ {
+		if valores[i] < menor {
+			menor = valores[i]
+		}
+	}
+
+	return menor
+}
