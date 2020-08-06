@@ -60,3 +60,15 @@ func MediaPonderada(valores []float64, pesos []float64) float64 {
 
 	return soma / d
 }
+
+func MaiorValor(valores []float64) float64 {
+	i := 0
+	maior := valores[i]
+	for i = 1; i < len(valores); i++ {
+		if valores[i] > maior {
+			maior = valores[i]
+		}
+	}
+
+	return maior
+}
