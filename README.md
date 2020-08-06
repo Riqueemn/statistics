@@ -26,4 +26,6 @@ Ex.:<br>
 <br><br>
     MediaPonderada(valores []float64, pesos []float64) float64  ->  "" Média ponderada
 <br><br>
-    MaiorValor(valores []float64) float64                       ->  "" Maior valor de N valores 
+    MaiorValor(valores []float64) float64                       ->  "" Maior valor de N valores
+<br><br>
+    MenorValor(valores []float64) float64                       ->  "" Menor valor de N valores 
