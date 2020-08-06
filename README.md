@@ -20,8 +20,10 @@ Ex.:<br>
 <br><br>
     MaxDeTresValores(a float64, b float64, c float64) float64   ->  "" Máximo entre três valores
 <br><br>
-    Amount(valores []float64, x float64, qtd int) float64       ->  "" Soma dos quadrados dos valores do slice
+    Amount(valores []float64, x float64, qtd int) float64       ->  "" Soma dos quadrados dos N valores no slice
 <br><br>
     SomaPonderada(valores []float64, pesos []float64) float64   ->  "" Soma ponderada
 <br><br>
     MediaPonderada(valores []float64, pesos []float64) float64  ->  "" Média ponderada
+<br><br>
+    MaiorValor(valores []float64) float64                       ->  "" Maior valor de N valores 
