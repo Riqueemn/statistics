@@ -29,6 +29,13 @@ func DesvioPadrao(valores []float64, qtd int) float64 {
 	return desvp
 }
 
+func DesvioPadraoEM(valores []float64, media float64, qtd int) float64 {
+	soma := Amount(valores, media, qtd)
+	desvp := math.Sqrt(soma / float64(qtd))
+
+	return desvp
+}
+
 func MaxDeTresValores(a float64, b float64, c float64) float64 {
 	return math.Max(a, math.Max(b, c))
 }

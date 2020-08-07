@@ -29,3 +29,5 @@ Ex.:<br>
     MaiorValor(valores []float64) float64                       ->  "" Maior valor de N valores
 <br><br>
     MenorValor(valores []float64) float64                       ->  "" Menor valor de N valores 
+<br><br>
+    DesvioPadraoEM(valores []float64, media float64, qtd int) float64   ->  "" Calcula o desvio padrão com base em uma média específica
